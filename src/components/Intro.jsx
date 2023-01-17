@@ -9,11 +9,11 @@ function Intro() {
       <p className="text-base md:text-xl mb-3 font-medium">Software Engineer</p>
       <p className="text-sm max-w-xl mb-6 font-bold">
         I am skilled in front-end development, with a focus on building modern
-        and responsive web applications using HTML, CSS, and JavaScript. In
-        addition to front-end knowledge, I have experience in back-end
-        development, which includes Node.JS, Express.JS, PostgreSQL, and RESTful
-        APIs. I am always eager to learn and stay up to date with the latest
-        development trends and techniques.
+        and responsive web applications using HTML, CSS, JavaScript, Bootstrap
+        and Tailwind. In addition to front-end knowledge, I have experience in
+        back-end development, which includes Node.JS, Express.JS, PostgreSQL,
+        and RESTful APIs. I am always eager to learn and stay up to date with
+        the latest development trends and techniques.
       </p>
     </div>
   );
