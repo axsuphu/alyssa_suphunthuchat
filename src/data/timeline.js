@@ -11,7 +11,7 @@ export default [
     title: "Thinkful Coding Bootcamp",
     duration: "5 months",
     details:
-      "Enrolled in a 5 month immersive coding bootcamp, learning how to build application from the ground up",
+      "Enrolled in a 5 month immersive coding bootcamp, learning how to build application from the ground up. Learned industry best practices and software development standards with a focus on Javascript, HTML5, CSS3, React Native, Node.js, PostgreSQL, RESTful API's, algorithms, and data structures. Developed and deployed mobile-first applications while learning new languages and frameworks, spending several hours per week collaborating with and learning from senior web developers in a mentor-student relationship.",
   },
   {
     year: "2022",
