@@ -34,4 +34,10 @@ export default [
     ],
     link: "https://we-love-movies-front-fgediq3wg-axsuphu.vercel.app/",
   },
+  {
+    title: "Decoder Ring",
+    imgUrl: "/assets/decoder-ring-demo.png",
+    stack: ["JavaScript", "Bootstrap", "HTML"],
+    link: "https://decoder-ring-project-xi.vercel.app/",
+  },
 ];
