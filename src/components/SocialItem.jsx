@@ -1,14 +1,18 @@
 import React from "react";
 
-function PortfolioItem({ website, imgUrl, username, link }) {
+function SocialItem({ website, imgUrl, username, link }) {
   return (
     <a
       href={link}
       target="blank"
       rel="noopener noreferrer"
-      className="flex flex-row items-center justify-center gap-4"
+      className="flex flex-row items-center md:justify-center lg:justify-center gap-4 mb-4 ml-7"
     >
-      <img src={imgUrl} alt="social" className="w-1/4 cursor-pointer" />
+      <img
+        src={imgUrl}
+        alt="social"
+        className="w-1/5 cursor-pointer dark:bg-white rounded-md p-1"
+      />
       <div>
         <h3 className="text-lg md:text-xl dark:text-white mt-2 md:mt-3 font-semibold">
           {website}
@@ -19,4 +23,4 @@ function PortfolioItem({ website, imgUrl, username, link }) {
   );
 }
 
-export default PortfolioItem;
+export default SocialItem;

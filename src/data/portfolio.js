@@ -19,7 +19,7 @@ export default [
     title: "Developer Portfolio",
     imgUrl: "/assets/portfolio-darkmode-demo.png",
     stack: ["HTML", "JavaScript", "Tailwind", "Vite"],
-    link: "https://axsuphu-github-2cie0dtp0-axsuphu.vercel.app/",
+    link: "https://axsuphu-github-io.vercel.app/",
   },
   {
     title: "Movie Database Application",
@@ -39,5 +39,11 @@ export default [
     imgUrl: "/assets/decoder-ring-demo.png",
     stack: ["JavaScript", "Bootstrap", "HTML"],
     link: "https://decoder-ring-project-xi.vercel.app/",
+  },
+  {
+    title: "Trivia-Mania",
+    imgUrl: "/assets/trivia-mania-demo.png",
+    stack: ["JavaScript", "React", "CSS", "HTML", "Node.js", "Axios"],
+    link: "https://trivia-mania.vercel.app/",
   },
 ];

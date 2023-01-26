@@ -5,7 +5,7 @@ import SocialItem from "./SocialItem";
 function Socials() {
   return (
     <div className="flex flex-row items-center justify-center mb-20 ">
-      <div className="flex flex-row items-center justify-center">
+      <div className="flex flex-col med:flex-row lg:flex-row items-center justify-center">
         {socials.map((account) => (
           <SocialItem
             website={account.website}
