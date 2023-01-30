@@ -13,7 +13,7 @@ export default [
       "Express.JS",
       "Git and Github",
     ],
-    link: "https://front-a8vnglf8g-axsuphu.vercel.app/dashboard",
+    link: "https://restaurant-reservations-front-end-ax.vercel.app/dashboard",
   },
   {
     title: "Developer Portfolio",
