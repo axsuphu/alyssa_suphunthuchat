@@ -4,7 +4,7 @@ export default [
     title: "Software Engineer",
     duration: "2 months",
     details:
-      "Continuing to build applications to master my stack. I am open to learning new technologies and my next language I want to pick up is Python",
+      "Continuing to build applications to master my stack. I am open to learning new technologies and I am currently working on Python. ",
   },
   {
     year: "2022",
