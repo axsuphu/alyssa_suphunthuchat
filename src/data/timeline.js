@@ -18,7 +18,7 @@ export default [
     title: "Travel ICU Registered Nurse",
     duration: "1.25 years",
     details:
-      "Aya Healthcare. Secured travel jobs in highly acclaimed hospitals by highlighting flexibility and adaptability in stressful situations. Executed exemplary care by asking questions and participating in multidisciplinary rounds 2 times a shift",
+      "Harborview in Seattle, WA.\nCedars-Sinai in Beverly Hills, CA.\nRenown in Reno, NV.",
   },
   {
     year: "2021",
@@ -30,15 +30,13 @@ export default [
     year: "2021",
     title: "Intensive Care Unit Registered Nurse",
     duration: "1.6 years",
-    details:
-      "Executed best care for hundreds of patients in critical condition by being detail oriented and quickly addressing deterioration. Technologies used: Phillips cardiac monitors, infusion pumps, Zoll defibrillators, bedside computer terminals",
+    details: "Spring Valley Hospital in Las Vegas, NV",
   },
   {
     year: "2019",
     title: "Operating Room Registered Nurse",
     duration: "3 years",
-    details:
-      "Led a variety of surgical cases as a circulator by seeking cross-training into multiple teams for personal enrichment: neurological, general, gynecological, robotic surgery, and urological. Technologies used: CERNER charting system, DAVINCI Surgical Robot, STRYKER Endoscopy systems.",
+    details: "Spring Valley Hospital in Las Vegas, NV",
   },
   {
     year: "2016",
