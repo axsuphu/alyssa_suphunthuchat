@@ -33,6 +33,10 @@ function Intro() {
         The next event I am hoping to participate in is the Emerging Talent
         Software Engineers Hackathon hosted by JPMorgan Chase
       </p>
+      <p className="text-sm max-w-xl mb-6 font-bold">
+        Outside of coding, I love swing dancing, hiphop dancing, arranging
+        flowers and making bouquets!
+      </p>
     </div>
   );
 }
