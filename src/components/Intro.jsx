@@ -30,8 +30,8 @@ function Intro() {
         from a non-relational database and build the frontend using Django.
       </p>
       <p className="text-sm max-w-xl mb-6 font-bold">
-        Next event I am hoping to participate in is the Emerging Talen Software
-        Engineers Hackathon hoste by JPMorgan Chase
+        The next event I am hoping to participate in is the Emerging Talent
+        Software Engineers Hackathon hosted by JPMorgan Chase
       </p>
     </div>
   );
