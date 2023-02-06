@@ -46,4 +46,10 @@ export default [
     stack: ["JavaScript", "React", "CSS", "HTML", "Node.js", "Axios"],
     link: "https://trivia-mania.vercel.app/",
   },
+  {
+    title: "Kelly Website",
+    imgUrl: "/assets/kelly-website-demo.png",
+    stack: ["JavaScript", "React", "Tailwind"],
+    link: "https://extraordinary-gaufre-5d60ac.netlify.app/",
+  },
 ];
