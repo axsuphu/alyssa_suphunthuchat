@@ -13,14 +13,7 @@ function App() {
     <>
       <DarkMode />
       <div className="bg-white dark:bg-stone-900 dark:text-stone-300 text-stone-900 min-h-screen font-inter">
-        <div className="max-w-5xl w-11/12 mx-auto">
-          <Intro />
-          <Portfolio />
-          <Timeline />
-          <Socials />
-          <Contact />
-          <Footer />
-        </div>
+        <div className="max-w-5xl w-11/12 mx-auto"></div>
       </div>
     </>
   );

@@ -1,8 +1,12 @@
 import React, { useState, useEffect } from "react";
 
 function DarkMode() {
-  const [theme, setTheme] = useState(null);
+  // per tailwind css documentation,  darkMode: 'class', has to be added to tailwind.config.js
 
+  const [theme, setTheme] = useState(null);
+  //matchMedia() returns a new MediaQueryLst object that can then be used to determine if the document matches the media query
+  //prefers-color-scheme is a CSS media feature us used to detect if a user has requested light or dark theme colors
+  //if user's prefers-color-scheme is already dark, setTheme to dark, otherwise light
   useEffect(() => {
     if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
       setTheme("dark");
@@ -11,10 +15,13 @@ function DarkMode() {
     }
   }, []);
 
+  //onClick, if theme is dark, set to light, otherwise dark
   const handleThemeSwitch = () => {
     setTheme(theme === "dark" ? "light" : "dark");
   };
 
+  //Element.classList will add "dark" to html. <html lang="en" class="dark"> html.dark
+  //rerender when theme is changed
   useEffect(() => {
     if (theme === "dark") {
       document.documentElement.classList.add("dark");
