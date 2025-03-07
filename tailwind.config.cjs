@@ -6,6 +6,7 @@ module.exports = {
     extend: {
       fontFamily: {
         inter: ["inter", "serif"],
+        sunflower: ["Sunflower", "sans-serif"],
       },
     },
   },
