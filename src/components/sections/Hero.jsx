@@ -1,6 +1,6 @@
 import React from "react";
 
-function Hero() {
+const Hero = () => {
   return (
     <section className="flex flex-col font-sunflower font-bold">
       {/* Name */}
@@ -28,6 +28,6 @@ function Hero() {
       <div className="text-md px-1">Github | LinkedIn</div>
     </section>
   );
-}
+};
 
 export default Hero;

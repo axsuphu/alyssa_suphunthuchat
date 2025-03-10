@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .bg-app {
+    @apply bg-cover bg-center bg-no-repeat w-full min-h-screen;
+    background-image: url("/assets/background/background_start.png");
+  }
+  .bg-overlay {
+    @apply absolute inset-0 w-full h-full mix-blend-soft-light pointer-events-none;
+    background-image: url("/assets/background/white_noise.png"); /* Your overlay image */
+  }
+}
