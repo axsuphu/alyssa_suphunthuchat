@@ -1,11 +1,12 @@
 import React from "react";
 import Hero from "../components/sections/Hero";
+import Navbar from "../components/layout/Navbar";
 
 const HomePage = () => {
   return (
-    <div className="absolute top-0 left-0 h-screen w-screen flex justify-center items-center">
+    <div className="h-auto w-auto flex items-center">
       <Hero />
-      {/* Nav Bar */}
+      <Navbar />
     </div>
   );
 };

@@ -1,6 +1,4 @@
 import React from "react";
-import DarkMode from "./components/DarkMode";
-import Navbar from "./components/layout/Navbar";
 import HomePage from "./pages/HomePage";
 import About from "./pages/About";
 import {
@@ -13,29 +11,15 @@ import {
 const App = () => {
   return (
     <>
-      <div className="bg-app">
-        <div className="bg-overlay"></div>
-        <DarkMode />
+      <div className="bg-app flex items-center justify-center">
+        <div className="bg-overlay "></div>
         <Router>
-          <AppContent />
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/about" element={<About />} />
+          </Routes>
         </Router>
       </div>
-    </>
-  );
-};
-
-const AppContent = () => {
-  const location = useLocation();
-
-  return (
-    <>
-      {/* Show navbar on Home Page only */}
-      {location.pathname === "/" && <Navbar />}
-
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/about" element={<About />} />
-      </Routes>
     </>
   );
 };

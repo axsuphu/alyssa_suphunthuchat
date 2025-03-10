@@ -2,12 +2,24 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
+  const pages = {
+    projects: "/projects",
+    experience: "/experience",
+    about: "/about",
+  };
+
+  const hoverEffect = "hover:italic";
+
+  const links = Object.entries(pages).map(([name, path]) => (
+    <Link key={name} to={path} className={hoverEffect}>
+      {name.toUpperCase()}
+    </Link>
+  ));
+
   return (
-    <nav>
-      <Link to="/projects">Projects</Link>
-      <Link to="/experience">Experience</Link>
-      <Link to="/about">About Me</Link>
-      <Link>Download CV</Link>
+    <nav className="font-ubuntumono font-bold flex flex-col ml-20 text-6xl gap-4">
+      {links}
+      <Link>DOWNLOAD CV</Link>
     </nav>
   );
 };

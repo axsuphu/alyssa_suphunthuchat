@@ -25,7 +25,19 @@ const Hero = () => {
       {/* Title */}
       <div className="text-xl px-1">Frontend Engineer</div>
       {/* Socials */}
-      <div className="text-md px-1">Github | LinkedIn</div>
+      <div className="text-md px-1 text-white">
+        <ul className="flex list-none gap-2">
+          <li>
+            <a href="https://www.linkedin.com/in/alyssa-suphunthuchat/">
+              LinkedIn
+            </a>
+          </li>
+          <li>|</li>
+          <li>
+            <a href="https://github.com/axsuphu">Github</a>
+          </li>
+        </ul>
+      </div>
     </section>
   );
 };
