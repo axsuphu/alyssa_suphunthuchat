@@ -19,7 +19,7 @@ const Navbar = () => {
   return (
     <nav className="font-ubuntumono font-bold flex flex-col ml-20 text-6xl gap-4">
       {links}
-      <Link>DOWNLOAD CV</Link>
+      <a>DOWNLOAD CV</a>
     </nav>
   );
 };
