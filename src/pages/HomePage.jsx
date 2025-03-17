@@ -4,7 +4,7 @@ import Navbar from "../components/layout/Navbar";
 
 const HomePage = () => {
   return (
-    <div className="h-auto w-auto flex items-center">
+    <div className="h-auto w-auto flex lg:items-center flex-col lg:flex-row">
       <Hero />
       <Navbar />
     </div>
