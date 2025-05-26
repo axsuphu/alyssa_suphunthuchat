@@ -1,14 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./index.html", "./src/**/*.{jsx,js}"],
-  darkMode: "class",
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {
-      fontFamily: {
-        sunflower: ["Sunflower", "sans-serif"],
-        ubuntumono: ["Ubuntu Mono", "monospace"],
-      },
-    },
+    extend: {},
   },
   plugins: [],
 };
