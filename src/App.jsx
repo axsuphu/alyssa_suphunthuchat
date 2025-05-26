@@ -13,7 +13,7 @@ import {
 const App = () => {
   return (
     <>
-      <div className="bg-app flex items-center justify-center">
+      <div className="bg-app flex items-center justify-center w-screen h-screen">
         <div className="bg-overlay "></div>
         <Router>
           <Routes>

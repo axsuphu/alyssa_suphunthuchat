@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section className="flex flex-col font-sunflower font-bold">
       {/* Name */}
-      <div className="text-3xl md:text-4xl lg:text-5xl text-white lg:gap-1 flex flex-col lg:pb-3 drop-shadow-[3px_2px_0px_black] lg:drop-shadow-[4px_3px_0px_black] relative">
+      <div className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white lg:gap-1 flex flex-col lg:pb-3 drop-shadow-[3px_2px_0px_black] lg:drop-shadow-[4px_3px_0px_black] relative">
         <div className="relative w-fit">
           {/* text */}
           <div className="tracking-widest">ALYSSA</div>

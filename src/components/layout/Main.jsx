@@ -4,7 +4,7 @@ const Main = ({ id, children }) => {
   return (
     <main
       id={id}
-      className={`w-screen relative flex justify-center bg-transparent md:w-2/3 h-screen items-center`}
+      className={`relative flex justify-center bg-transparent md:w-2/3 lg:w-4/5 md:items-center`}
     >
       {children}
     </main>
