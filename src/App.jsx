@@ -1,8 +1,8 @@
 import React from "react";
-import HomePage from "./pages/HomePage";
+import HomePage from "./pages/HomePage/HomePage";
 import About from "./pages/About";
 import Experience from "./pages/Experience";
-import Projects from "./pages/Projects";
+import Projects from "./pages/ProjectsPage/Projects";
 import {
   BrowserRouter as Router,
   Routes,
