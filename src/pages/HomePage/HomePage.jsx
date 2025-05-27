@@ -5,8 +5,8 @@ import Main from "../../components/layout/Main";
 
 const HomePage = () => {
   return (
-    <Main>
-      <div className="flex lg:items-center flex-col lg:flex-row">
+    <Main id="home">
+      <div className="flex lg:items-center justify-center flex-col lg:flex-row h-screen">
         <Hero />
         <Navbar />
       </div>

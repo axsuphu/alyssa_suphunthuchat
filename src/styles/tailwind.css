@@ -3,12 +3,15 @@
 @tailwind utilities;
 
 @layer utilities {
-  .bg-app {
-    @apply bg-cover bg-center bg-no-repeat w-full min-h-screen;
-    background-image: url("/assets/background/background_start.png");
+  .bg-primary {
+    @apply flex min-h-screen flex-col bg-cover bg-center bg-gradient-to-r from-emerald-800 via-emerald-600 to-amber-100;
   }
   .bg-overlay {
-    @apply absolute inset-0 w-full h-full mix-blend-soft-light pointer-events-none;
-    background-image: url("/assets/background/white_noise.png"); /* Your overlay image */
+    @apply fixed z-0 inset-0 w-full h-auto pointer-events-none mix-blend-soft-light bg-repeat;
+    background-image: url("/assets/background/white_noise.png");
+  }
+  .section-cover {
+    @apply bg-cover bg-center bg-no-repeat;
+    background-image: url("/assets/covers/section_cover.png");
   }
 }

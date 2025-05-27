@@ -13,17 +13,19 @@ import {
 const App = () => {
   return (
     <>
-      <div className="bg-app flex items-center justify-center w-screen h-screen">
-        <div className="bg-overlay "></div>
-        <Router>
-          <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/experience" element={<Experience />} />
-            <Route path="/about" element={<About />} />
-          </Routes>
-        </Router>
-      </div>
+      <di className="bg-primary">
+        <div className="bg-overlay" />
+        <div className="flex z-10 min-h-screen justify-center">
+          <Router>
+            <Routes>
+              <Route path="/" element={<HomePage />} />
+              <Route path="/projects" element={<Projects />} />
+              <Route path="/experience" element={<Experience />} />
+              <Route path="/about" element={<About />} />
+            </Routes>
+          </Router>
+        </div>
+      </di>
     </>
   );
 };

@@ -7,11 +7,11 @@ const Hero = () => {
       <div className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white lg:gap-1 flex flex-col lg:pb-3 drop-shadow-[3px_2px_0px_black] lg:drop-shadow-[4px_3px_0px_black] relative">
         <div className="relative w-fit">
           {/* text */}
-          <div className="tracking-widest">ALYSSA</div>
+          <h1 className="tracking-widest">ALYSSA</h1>
         </div>
         <div className="relative w-fit">
           {/* text */}
-          <div className="tracking-wider">SUPHUNTHUCHAT</div>
+          <h1 className="tracking-wider">SUPHUNTHUCHAT</h1>
         </div>
       </div>
       {/* Title */}
