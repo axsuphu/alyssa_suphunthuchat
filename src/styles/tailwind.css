@@ -4,7 +4,7 @@
 
 @layer utilities {
   .bg-primary {
-    @apply flex min-h-screen flex-col bg-cover bg-center bg-gradient-to-r from-emerald-600 via-emerald-500 to-amber-100;
+    @apply flex min-h-screen flex-col bg-cover bg-center bg-gradient-to-r from-slate-300 via-zinc-300 to-white;
   }
   .bg-overlay {
     @apply fixed z-0 inset-0 w-full h-auto pointer-events-none mix-blend-soft-light bg-repeat;

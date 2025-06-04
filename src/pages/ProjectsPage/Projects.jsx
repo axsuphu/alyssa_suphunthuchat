@@ -9,7 +9,7 @@ const Projects = () => {
       <div className="section-cover w-full h-fit text-white 2xl:my-16">
         <div className="p-10">
           {/* Header */}
-          <div className="w-fit p-2 lg:p-4 bg-[#19997d]">
+          <div className="w-fit p-2 lg:p-4 bg-slate-400">
             <h1 className="bottom-10 tracking-widest text-3xl font-black sm:text-3xl md:text-4xl lg:text-5xl drop-shadow-[3px_2px_0px_black] lg:drop-shadow-[4px_3px_0px_black]">
               PROJECTS
             </h1>
@@ -32,9 +32,9 @@ const Projects = () => {
                 />
               </div>
               {/* Tech stack */}
-              <div className="flex text-sm lg:text-base text-black font-semibold justify-center m-1 lg:m-4 2xl:m-6">
+              <div className="flex text-sm lg:text-base text-white font-semibold justify-center m-1 lg:m-4 2xl:m-6">
                 {techStack.map((item) => (
-                  <div className="bg-[#ecf59d] w-fit px-1.5 rounded-lg py-0.5 mx-1 xl:px-2 2xl:py-1">
+                  <div className="bg-slate-400 w-fit px-1.5 rounded-lg py-0.5 mx-1 xl:px-2 2xl:py-1">
                     {item}
                   </div>
                 ))}
